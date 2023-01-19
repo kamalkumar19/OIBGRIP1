@@ -1,0 +1,66 @@
+input[type="button"] {
+    height: 61px;
+    width: 61px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-size: large;
+    
+}
+
+
+body{
+    
+    font-family: sans-serif;
+}
+
+
+table{
+    background-color: rgb(113, 99, 99);
+   height: auto;
+   width: auto;
+   position: relative;
+   box-shadow: 0 0 30px rgb(68, 59, 59);
+   padding: 21px;
+border-radius: 10px;
+}
+#result{
+    height: 20vh;
+    width: 26vw;
+    border-radius: 5px;
+    font-size: 50px;
+    background-color: rgb(49, 40, 40);
+    color: rgb(108, 144, 144);
+}
+
+#equal{
+    height: 20vh;
+    background-color: #73f1fe;
+    font-size: large;
+
+}
+div{
+    
+    display: grid;
+    place-items: center;
+}
+
+.opr{
+    background-color: #ffabba;
+}
+
+.num{
+    background-color: #bad3de;
+}
+#c{
+    background-color: #887d7d;
+}
+
+input[type="button"]:hover{
+    transform: scale(1.1);
+}
+body{
+    background-image:  linear-gradient(to left,rgb(76, 104, 186), rgb(100, 222, 207))
+}
